@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Snake</title>
+        <link rel="stylesheet" type="text/css" href="../css/snake.css">
+    </head>
+    <body>
+        <div id="top">
+            <article id="TRESC">
+                <div id="optionPanel">
+                    <p id="difficultyInfo">Choose difficulty level</p>
+                    <select id="difficulty">
+                    	<option value="0">Easy</option>
+                    	<option value="1">Medium</option>
+                    	<option value="2">Hard</option>
+                    </select>
+                    <p id="numberOfFood">Choose number of food</p>
+                    <select id="quantity">
+                    	<option value="1">1</option>
+                    	<option value="2">2</option>
+                    	<option value="3">3</option>
+                    	<option value="4">4</option>
+                    	<option value="5">5</option>
+                    </select>
+                    <p id="modeInfo">Choose mode</p>
+                    <select id="mode">
+                    	<option value="0">Fruits</option>
+                    	<option value="1">Bugs</option>
+                    </select>
+                    <button id="confirm">Confirm</button>
+                    <button id="start">Start</button><br/>
+                    <button id="stop">Stop</button><br/>
+                    <button id="reset">Reset</button><br/>
+                    <p id="error">Choose mode and number of food!</p>
+                </div>
+                <canvas id="myCanvas" width="600px"  height="640px"></canvas>
+            </article>
+        </div>
+    <script src="../javascript/snake.js"></script>
+    </body>
+</html>

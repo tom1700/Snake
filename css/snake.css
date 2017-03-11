@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+body{
+	background-color:black;
+}
+#optionPanel{
+	float:left;
+	width:200px;
+	height:640px;
+	margin-left:200px;
+	background-color:grey;
+}
+canvas{
+	clear:left;
+	background-color:white;
+	padding:0;
+	margin:auto;
+}
+#modeInfo{
+	text-align:center;
+}
+button{
+	width:200px;
+	height:40px;
+}
+#error{
+	color:red;
+}
